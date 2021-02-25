@@ -11,9 +11,6 @@ variable "name_prefix" {
 resource "random_pet" "names" {
   count  = var.name_count
   prefix = var.name_prefix
-  tags = {
-    "tag_name" = "testing"
-    }
 }
 
 output "names" {
