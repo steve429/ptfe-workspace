@@ -9,7 +9,7 @@ resource "aws_instance" "web" {
 
   tags = {
     "Identity"    = var.identity
-    "Name"        = "Student"
+    "Name"        = "Steve"
     "Environment" = "Training"
   }
 }
